@@ -99,7 +99,7 @@ function findFirstTitleTrack(songs) {
   return (found = songs.find(({title,album})=> title === album))
 }
 
-findFirstTitleTrack(songs)
+
 
 module.exports = {
   findPinkElephantsByTimestreet,
